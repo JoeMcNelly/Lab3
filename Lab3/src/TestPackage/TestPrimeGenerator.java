@@ -36,6 +36,7 @@ public class TestPrimeGenerator {
    public static Collection<Object[]> primeNumbers() {
       return Arrays.asList(new Object[][] {
          { 2, list() },
+         { 3, list(2)},
       });
    }
 
