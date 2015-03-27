@@ -15,8 +15,12 @@ public class TestPrimeFactorization {
 	}
 
 	@Test
-	public void test() {
+	public void test1() {
 		assertEquals(list(), PrimeFactorFinder.generateList(1));
+	}
+	@Test
+	public void test2(){
+		assertEquals(list(2),PrimeFactorFinder.generateList(2));
 	}
 
 }
