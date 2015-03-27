@@ -40,6 +40,7 @@ public class TestPrimeGenerator {
          {4, list(2,3)},
          {6, list(2,3,5)},
          {8, list(2,3,5,7)},
+         {12, list (2,3,5,7,11)},
       });
    }
 
