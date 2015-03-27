@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestPrimeGenerator" project="Lab3" tests="6" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="TestPackage.TestPrimeGenerator" incomplete="true">
+    <testsuite name="[0]" time="27.283">
+      <testcase name="testPrimeNumberChecker[0]" classname="TestPackage.TestPrimeGenerator" time="27.283"/>
+    </testsuite>
+    <testsuite name="[1]" time="57.865">
+      <testcase name="testPrimeNumberChecker[1]" classname="TestPackage.TestPrimeGenerator" time="57.865"/>
+    </testsuite>
+    <testsuite name="[2]" time="30.66">
+      <testcase name="testPrimeNumberChecker[2]" classname="TestPackage.TestPrimeGenerator" time="30.66"/>
+    </testsuite>
+    <testsuite name="[3]" incomplete="true">
+      <testcase name="testPrimeNumberChecker[3]" classname="TestPackage.TestPrimeGenerator" incomplete="true"/>
+    </testsuite>
+    <testsuite name="[4]" incomplete="true">
+      <testcase name="testPrimeNumberChecker[4]" classname="TestPackage.TestPrimeGenerator" incomplete="true"/>
+    </testsuite>
+    <testsuite name="[5]" incomplete="true">
+      <testcase name="testPrimeNumberChecker[5]" classname="TestPackage.TestPrimeGenerator" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

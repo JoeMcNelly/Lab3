@@ -8,15 +8,25 @@ public class PrimeNumberGenerator {
 	public List<Integer> generateList(int i) {
 		
 		ArrayList<Integer> primes = new ArrayList<Integer>();
-		if (i>2)
-			primes.add(2);
-		if (i>3)
-			primes.add(3);
-		if (i>5)
-			primes.add(5);
-		if (i>7)
-			primes.add(7);
+
+		for(int k=2;k<i;k++){
+			if(k>2 && k%2==0)
+				continue;
+			boolean isPrime = true;
+			for(int j=2;j<(k/2);j++){
+				if (k%j==0){
+					isPrime = false;
+					break;
+				}
+				
+			}
+			
+			if(isPrime)
+				primes.add(k);
+			
+		}
 		return primes;
 	}
+	
 
 }
