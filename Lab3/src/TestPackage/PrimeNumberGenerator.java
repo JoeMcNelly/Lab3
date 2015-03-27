@@ -9,12 +9,12 @@ public class PrimeNumberGenerator {
 		
 		ArrayList<Integer> primes = new ArrayList<Integer>();
 
-		for(int k=2;k<i;k++){
-			if(k>2 && k%2==0)
+		for(int primeCandidate=2;primeCandidate<i;primeCandidate++){
+			if(primeCandidate>2 && primeCandidate%2==0)
 				continue;
 			boolean isPrime = true;
-			for(int j=2;j<(k/2);j++){
-				if (k%j==0){
+			for(int j=2;j<(primeCandidate/2);j++){
+				if (primeCandidate%j==0){
 					isPrime = false;
 					break;
 				}
@@ -22,7 +22,7 @@ public class PrimeNumberGenerator {
 			}
 			
 			if(isPrime)
-				primes.add(k);
+				primes.add(primeCandidate);
 			
 		}
 		return primes;
