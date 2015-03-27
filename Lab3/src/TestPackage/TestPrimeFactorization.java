@@ -42,6 +42,9 @@ public class TestPrimeFactorization {
 	public void test9(){
 		assertEquals(list(3,3),PrimeFactorFinder.generateList(9));
 	}
-
+	@Test
+	public void test325115(){
+		assertEquals(list(5,7,7,1327),PrimeFactorFinder.generateList(325115));
+	}
 
 }
