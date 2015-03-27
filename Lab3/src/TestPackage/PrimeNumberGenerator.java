@@ -14,6 +14,8 @@ public class PrimeNumberGenerator {
 			primes.add(3);
 		if (i>5)
 			primes.add(5);
+		if (i>7)
+			primes.add(7);
 		return primes;
 	}
 
