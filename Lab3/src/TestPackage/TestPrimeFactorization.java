@@ -43,4 +43,5 @@ public class TestPrimeFactorization {
 		assertEquals(list(3,3),PrimeFactorFinder.generateList(9));
 	}
 
+
 }

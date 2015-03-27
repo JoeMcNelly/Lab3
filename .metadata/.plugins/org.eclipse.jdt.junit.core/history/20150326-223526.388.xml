@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestPrimeFactorization" project="Lab3" tests="7" started="7" failures="0" errors="0" ignored="0">
+  <testsuite name="TestPackage.TestPrimeFactorization" time="0.0">
+    <testcase name="test1" classname="TestPackage.TestPrimeFactorization" time="0.0"/>
+    <testcase name="test2" classname="TestPackage.TestPrimeFactorization" time="0.0"/>
+    <testcase name="test3" classname="TestPackage.TestPrimeFactorization" time="0.0"/>
+    <testcase name="test4" classname="TestPackage.TestPrimeFactorization" time="0.0"/>
+    <testcase name="test6" classname="TestPackage.TestPrimeFactorization" time="0.0"/>
+    <testcase name="test8" classname="TestPackage.TestPrimeFactorization" time="0.0"/>
+    <testcase name="test9" classname="TestPackage.TestPrimeFactorization" time="0.0"/>
+  </testsuite>
+</testrun>
